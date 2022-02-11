@@ -1,0 +1,9 @@
+{
+    "name": "DequeCraft",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/ardnaxelarak/DequeCraft",
+    "description": "Newly added recipes to replicator can be crafted first or last.",
+    "dependencies": [
+        "xiaoye97-BepInEx-5.4.5"
+    ]
+}

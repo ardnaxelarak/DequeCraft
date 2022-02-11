@@ -1,27 +1,27 @@
-# FILOCraft
+# DequeCraft
 Dyson Sphere Program mod
 
-戴森球计划的模组
+## Features
 
-## Features 特性
+Replicator on robot will behave as a double-ended queue (deque) rather than only a FIFO queue. Left-click the craft button to add an item to the front of the queue (left side of queue); right-click to add to the back (right side of the queue).
 
-New added recipe on robot will craft first. Change the way of handcraft from queue (First In First Out) to stack (First In Last Out).
-
-机器人手工制造中，新加的配方将会优先制造，生产队列从先进先出改为先进后出。
-
-## Installation 安装
+## Installation
 
 Install BepInEx [here](https://dsp.thunderstore.io/package/xiaoye97/BepInEx/)
 
-需要安装BepInEx [链接](https://dsp.thunderstore.io/package/xiaoye97/BepInEx/)
+Then drag Deque.dll into steamapps/common/Dyson Sphere Program/BepInEx/plugins
 
-Then drag FILO.dll into steamapps/common/Dyson Sphere Program/BepInEx/plugins
+## Credits
 
-然后把FILO.dll放到目录steamapps/common/Dyson Sphere Program/BepInEx/plugins下
+This mod is based off of [FILOCraft by BakaNiner](https://github.com/BakaNiner/FILOCraft)
 
-## Changelog 更新日志
+## Changelog
+
+### v1.0.1
+
+- Added Deque functionality
 
 ### v1.0.0
 
-- Initial release
+- (FILOCraft) Initial release
 
